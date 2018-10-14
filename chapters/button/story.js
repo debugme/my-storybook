@@ -11,7 +11,7 @@ import { Button } from './component'
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .add('with caption', () => {
+  .addWithJSX('with caption', () => {
     const story = <Button caption={text('caption', 'hello')} onClick={action('clicked')} />
 
     specs(() => describe('Button', () => {

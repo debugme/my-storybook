@@ -1,0 +1,21 @@
+{
+  "name": "my-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3"
+  }
+}
